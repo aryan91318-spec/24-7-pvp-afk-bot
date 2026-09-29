@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: rednova-ai-minecraft-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MC_HOST
+        value: PUPOMC.aternos.me
+      - key: MC_PORT
+        value: "53902"
+      - key: MC_USERNAME
+        value: REDNOVA_AI
+      - key: MC_AUTH
+        value: offline
+      - key: RECONNECT_MS
+        value: "10000"
+      - key: RESTART_DELAY_MS
+        value: "5000"
+      - key: OWNER_NAME
+        value: ""

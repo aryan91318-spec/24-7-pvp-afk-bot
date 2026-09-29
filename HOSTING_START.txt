@@ -1,0 +1,7 @@
+Generic hosting:
+1. Upload this project or connect its Git repository.
+2. Install command: npm install
+3. Start command: npm start
+4. Add environment variables from .env.example.
+5. Enable persistent/always-on service if the provider offers it.
+6. Do not put passwords/tokens in public source code.

@@ -1,0 +1,5 @@
+Minecraft Server Host: PUPOMC.aternos.me
+Minecraft Server Port: 53902
+Bot Username: REDNOVA_AI
+Auth mode: offline (change if your server requires online authentication)
+Start command: npm start

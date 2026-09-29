@@ -1,0 +1,20 @@
+{
+  "name": "rednova-ai-minecraft-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mineflayer Minecraft bot with wood/mining tasks, chat commands, auto-eat and reconnect.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node supervisor.js",
+    "bot": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mineflayer": "^4.39.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-collectblock": "^1.6.0",
+    "mineflayer-auto-eat": "^5.0.3"
+  }
+}
